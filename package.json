@@ -1,0 +1,13 @@
+{
+  "name": "s3-image-conversion",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to convert uploaded images to PNG format if necessary",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6"
+  }
+}
